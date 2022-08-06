@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    margin:50px 500px;
+}
+
+
+.formControl{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    display:flex;
+    flex-direction: row;
+
+}
+
+input{
+    background-color: aquamarine;
+    margin-left: 30px;
+    border-radius: 2px;
+    paddin:2px 14px;
+}
